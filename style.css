@@ -35,7 +35,7 @@ header {
 
 .right-content {
     position: relative;
-    left: 230px;
+    left: 316px;
     text-align: center;
     width: 50%;
     height: 734px;
@@ -52,6 +52,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 button {
     width: 300px;
@@ -99,8 +100,8 @@ button {
     text-align: center;
     padding: 40px;
     transform: skewY(-3deg); 
-    margin-top: 20px; 
-    width: 100%; /* Adjust the width to fit within the viewport */
+    margin-top: 900px; 
+    width: 100%; 
     height: 420px;
 }
 
@@ -168,4 +169,108 @@ button {
     letter-spacing: 0px;
     text-align: left;
     margin-top: 50px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.container {
+    width: 793px;
+    height: 581px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.container1 {
+    width: 380px;
+    height: 581px;
+    flex-direction: column;
+    margin: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-width: 20px 0 0 0; 
+    border-style: solid;
+    border-top-color: #4AC959; 
+}
+
+
+
+ul {
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+li {
+    position: relative;
+    padding-left: 40px; 
+    margin: 20px;
+}
+
+.checkmark {
+    position: absolute;
+    left: 10px;
+}
+
+.color-black{
+    background-color: #000;
+}
+.container h2, p{
+    position: relative;
+    right: 30px;
+    bottom:30px
+}
+
+.container h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.container p{
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align:leftcenter;
+margin-top: 20px;
+}
+
+.container-carrosel{
+    background-color: #4AC959;
+    width: 1230px;
+    height: 672px;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+.container-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+    top: 270px;
+}
+
+.container-inside{
+    width: 360px;
+    height: 430px;
+    box-shadow: 8px 8px 24px 0px #0C29D029;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
 }
