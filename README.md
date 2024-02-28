@@ -1,7 +1,7 @@
 
 
 # Organize Your Daily Jobs
-
+![page-screenshot](./assests/page.png);
 
 Bem-vindo ao Organize Your Daily Jobs
 ! Este aplicativo foi desenvolvido para ajudá-lo a gerenciar suas tarefas diárias com eficiência, garantindo que nada passe despercebido. Esteja você organizando tarefas pessoais, projetos de trabalho ou tarefas colaborativas com colegas, este aplicativo tem o que você precisa.
@@ -56,10 +56,11 @@ Antes de começar, certifique-se de ter o seguinte software instalado em seu sis
    instalação npm
    ```
 
-   ou usando Fio:
+   ou usando Yarn:
 
    ```bash
-   instalação de fio
+   yarn start
+
    ```
 
 2. Abra seu navegador e navegue até `http://localhost:3000` para visualizar o aplicativo.
