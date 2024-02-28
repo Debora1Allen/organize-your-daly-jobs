@@ -331,8 +331,14 @@ li {
     left: 50px;
 }
 
+#seta{
+    position: absolute;
+    top:180px;
+    margin-left: 300px;
+}
+
 .form {
-    margin-top: 80px;
+    margin-top: 90px;
     margin-bottom: 40px;
     text-align: center;
     width: 700px;
